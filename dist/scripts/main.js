@@ -1,0 +1,1 @@
+"use strict";window.onload=function(){setInterval(function(){var t=moment().format("h:mm:ss a");$(".time").html(t);var m=(moment().hour(),moment().hour()+".jpg"),e="images/panels/",n=e+m;$("#panel-image").attr("src",n)},1e3)};
