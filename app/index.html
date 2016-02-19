@@ -22,7 +22,7 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
-  <body>
+  <body onload='init();'>
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -31,17 +31,18 @@
       <div class="header">
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
         <h3 class="text-muted">rengaClock</h3>
       </div>
 
       <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
+        <canvas id="clock" width="1200" height="451"></canvas>
       </div>
+
+  
+  
+    
 
       <div class="row marketing">
         <div class="col-lg-6">
@@ -97,6 +98,7 @@
     
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src='scripts/clock.js'></script>
     <!-- endbuild -->
   </body>
 </html>
