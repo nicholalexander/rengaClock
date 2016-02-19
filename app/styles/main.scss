@@ -43,6 +43,7 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  text-align: right;
 }
 
 .container-narrow > hr {
@@ -53,9 +54,14 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background-color: white;
   .btn {
     font-size: 21px;
     padding: 14px 24px;
+  }
+  
+  #time {
+    text-size: 4em !important;
   }
 }
 
