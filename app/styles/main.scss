@@ -15,6 +15,8 @@ $icon-font-path: '../fonts/';
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #3E4A66;
+  color: white;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -28,7 +30,7 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-
+  color: white;
   /* Make the masthead heading the same height as the navigation */
   h3 {
     margin-top: 0;
@@ -53,8 +55,9 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  background-color: white;
+  // border-bottom: 1px solid #e5e5e5;
+  background-color: #3E4A66;
+  color: white;
   .btn {
     font-size: 21px;
     padding: 14px 24px;
@@ -73,6 +76,9 @@ body {
   }
 }
 
+.panel {
+  border: 0px;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
