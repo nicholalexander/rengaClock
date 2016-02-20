@@ -11,11 +11,16 @@ The About us page has some description about the assignment and slide show of al
 ##Panels
 The panels from the kids are just simple photos and are not currently processed to lower file size as they should be.
 
+##Teaching
+This is a very simple project and the javascript is minimal.  I think this is appropriate for 6th to 7th graders, no problem.  The main knowledge areas are HTML, CSS, and Javascript.  I am sure that there are a million very thoughtful ways to use this to invovle both the older kids and the younger producers of the art in an awesome cross disciplinary piece of work.
+
 ##Disclaimer
 The javascript code is terrible.  Pretty much all the code is terrible.  Also, the site could be designed to look much nicer with the art work.
 
 ##Stack
-A super basic [Yeoman](http://yeoman.io/) generated [webapp](https://github.com/yeoman/generator-webapp), deployed to Heroku.  It uses a simple node server to serve the dist folder.  This is probably not the right way to do this.
+A super basic [Yeoman](http://yeoman.io/) generated [webapp](https://github.com/yeoman/generator-webapp), deployed to Heroku.  
+
+It uses a simple node server to serve the dist folder.  This is probably not the right way to do this.
 
 The slideshow on the About page is a simple bootstrap carousel.  
 
@@ -39,5 +44,3 @@ The slideshow on the About page is a simple bootstrap carousel.
 ###Via [Surge](https://surge.sh/)
 1. Ensure you have surge installed.  If not: `npm install -g surge`
 2. `cd dist` and `surge`. (Love it!)
-
-
